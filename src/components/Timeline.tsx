@@ -10,56 +10,141 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Work Experience</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">AI Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Northino</h4>
+            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Python, PyTourch, Tensorflow Artificial Intelligence (AI), Natural Language Processing (NLP)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Ctrl F2</h4>
+            <p className="vertical-timeline-element-subtitle">Texas, United State</p>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Software Development, React, Nextjs, Nodejs, ExpressJs, PostgreSQL, Agile Methodologies, SSDL, Google Cloud Platform (GCP)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="May 2024 - Aug 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Backend Development Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">FlexiSAF Edusoft</h4>
+            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
             <p>
-              Full-stack Development, API Development, User Experience
+            Backend Development, Java, Spring, JUnit, PostgreSQL
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Feb 2024 - Oct 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Backend Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bookbay</h4>
+            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
             <p>
-              Automation, Data Governance, Statistical Analysis
+            Backend Development, Express.js, Redux,  Nodejs, MongoDB, Firebase
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2023 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Lead Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Northino</h4>
+            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
+            <p>
+            Software Development, Project Management, Security Best Practices, Cloud Platform, Nodejs, Express, MongoDB
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2023 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Backend Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Pailot</h4>
+            <p className="vertical-timeline-element-subtitle">Lagos, Nigeria</p>
+            <p>
+            Backend Development, Nodejs, ExpressJs, NestJs, PostgreSQL
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2022 - 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Backend Development Facilitator</h3>
+            <h4 className="vertical-timeline-element-subtitle">GDSC</h4>
+            <p className="vertical-timeline-element-subtitle">Katsina, Nigeria</p>
+            <p>
+            MySQL, PHP, Technology Leadership,Team Building, Public Speaking
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2021 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Co-Founder & CTO</h3>
+            <h4 className="vertical-timeline-element-subtitle">Northino</h4>
+            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
+            <p>
+            Product Development, Teamwork, Networking, Leadership, Project Managment 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2016 - 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Founder & Lead Graphic Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">BHC Designs</h4>
+            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
+            <p>
+            Adobe Photoshop, Image Design, CorelDRAW, Photoshop cs6
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
