@@ -9,6 +9,7 @@ const labelsFirst = [
     "Node.js",
     "Express.js",
     "React",
+    "Reat Native",
     "NestJs",
     "NextJs",
     "MongoDB",
@@ -46,7 +47,7 @@ function Expertise() {
     return (
         <div className="container" id="expertise">
             <div className="skills-container">
-                <h1>Skilss</h1>
+                <h1>Skills</h1>
                 <div className="skills-grid">
                     <div className="skill">
                         <FontAwesomeIcon icon={faCode} size="3x" />
