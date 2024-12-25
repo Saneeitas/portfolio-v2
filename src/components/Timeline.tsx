@@ -52,7 +52,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Backend Development Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">FlexiSAF Edusoft</h4>
-            <p className="vertical-timeline-element-subtitle">Kano, Nigeria</p>
+            <p className="vertical-timeline-element-subtitle">Abuja, Nigeria</p>
             <p>
             Backend Development, Java, Spring, JUnit, PostgreSQL
             </p>
